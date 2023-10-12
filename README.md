@@ -1,3 +1,4 @@
+<h1 align="center">Productive VS Code</h1>
 
 # Customizing VS Code
 
@@ -92,4 +93,4 @@ Now, we are in a condition where we have to change the name of a function, one t
 
 To solve this issue, there is an option in `VS Code`. Select the function name you want to change, press `right mouse key` and then select `Rename Symbol`. In this option, VS Code replaces all the function name everywhere it is called.
 
-One more alternative way of doing this, we can select text and press `right mouse key` and select `Find All References`
+One more alternative way of doing this, we can select text and press `right mouse key` and select `Find All References
