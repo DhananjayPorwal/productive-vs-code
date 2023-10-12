@@ -1,3 +1,6 @@
+<p align="center">
+<img src="Sources/icon.png" height="130" width="130"/>
+</p>
 <h1 align="center">Productive VS Code</h1>
 
 # Customizing VS Code
@@ -91,6 +94,7 @@ Alternatively, you can use `alt` + `mouse pointer` to the desired location to cr
 
 Now, we are in a condition where we have to change the name of a function, one thing we can do is find and replace all but changes reflects to all the matching strings.
 
-To solve this issue, there is an option in `VS Code`. Select the function name you want to change, press `right mouse key` and then select `Rename Symbol`. In this option, VS Code replaces all the function name everywhere it is called.
+To solve this issue, there is an option in `VS Code`. Select the function name you want to change, press `right mouse key` and then select `Rename Symbol`. In this option, VS Code replaces all the function name everywhere it is called across the file system.
 
-One more alternative way of doing this, we can select text and press `right mouse key` and select `Find All References
+One more alternative way of doing this, we can select text and press `right mouse key` and select `Find All References`.
+
