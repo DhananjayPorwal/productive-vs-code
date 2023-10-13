@@ -3,7 +3,7 @@
 	// Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
 
 	// List of extensions which should be recommended for users of this workspace.
-	"recommendations": [ "ThePsychoCoder.psyco-coder-dark", "PKief.material-icon-theme", "yzhang.markdown-all-in-one", "wix.vscode-import-cost", "codezombiech.gitignore", "pflannery.vscode-versionlens", "DavidAnson.vscode-markdownlint"
+	"recommendations": [ "ThePsychoCoder.psyco-coder-dark", "PKief.material-icon-theme", "yzhang.markdown-all-in-one", "wix.vscode-import-cost", "codezombiech.gitignore", "pflannery.vscode-versionlens", "DavidAnson.vscode-markdownlint", "qezhu.gitlink", "lamartire.git-indicators", "eamodio.gitlens", 
 		
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.

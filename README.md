@@ -215,3 +215,17 @@ All you need to write Markdown (keyboard shortcuts, table of contents, auto prev
 
 Markdown/CommonMark linting and style checking for Visual Studio Code.
 
+## Git Extensions
+
+### `gitlink`
+
+Goto/Copy current file's online link, supports multiple remote sources in GitHub/GitLab/BitBucket/VSTS/DevOps.
+
+### `Git Indicators`
+
+Git indicator in the status bar.
+
+### `GitLens`
+
+Supercharge Git and unlock untapped knowledge within your repository to better understand, write, and review code. Focus, collaborate, accelerate.
+
