@@ -45,6 +45,8 @@ https://coding-fonts.netlify.app/fonts/codelia/
 
 ## Word Wrap
 
+When any text runs off the side of the screen, the Word Wrap feature of VS Code consolidates it within the window and formats it perfectly. 
+
 1. Press `Ctrl` + `Shift` + `P`, then search for `setting (UI)`.
 2. Search `editor word wrap` and turn it `on`.
 
@@ -140,4 +142,76 @@ Having multiple devices can be clutter when we have to modify setting in all the
 5. It will show you all snippets and you can insert which one you want.
 
 ### User Defined Snippets
+
+1. Press `Ctrl` + `Shift` + `P` to open `Command Palette`.
+2. Search and select `Snippets: Configure User Snippets`.
+3. Now, you have option to create snippet for any language, workspace or globally. Select any of these.
+4. Enter the name of snippet.
+5. Now, a new file created with the name of your snippet.
+6. Here is an example:
+
+```javascript
+	"Print ctrl": {
+		"scope": "markdown",
+		"prefix": "ctrl",
+		"body": [
+			"`Ctrl` + $0"
+		],
+		"description": "Print the Ctrl Button in Markdown"
+	}
+```
+7. Now, when ever you type the `{prefix}`, it will shows the option to select the snippet.
+
+> Snippet guide available in the starting of your snippet file with an example.
+
+## Open VS Code In A Folder 
+
++ Using Terminal 
+
+```bash
+code folderName
+```
++ Using Context Menu
+
+**One time setup**:
+
+1. Press `Ctrl` + `Shift` + `P` to open the Command Palette.
+2. Type `shell command` and select `Shell Command: Install 'code' command in PATH`.
+
+This will add the code command to your system PATH, so that you can launch VS Code from anywhere on your computer by typing code in a terminal window.
+
+Now, open desired folder you want to open in VS Code and press `right mouse` key, you will see `Open With Code` option there.
+ 
+## `gitignore`
+
+This extension lets you pull `.gitignore` templates from `github/gitignore`.
+
+1. Install extension `gitignore` from the marketplace .
+2. Press `Ctrl` + `Shift` + `P`.
+3. Search for `add gitignore`.
+4. Now, you have to select the technology of your project.
+
+## `Version Lens`
+
+Shows the latest version for each package using code lens.
+
+<center>
+
+![Version Lens](Sources/version%20lens.gif)</center>
+
+## `Import Cost`
+
+Display import/require package size in the editor.
+
+<center>
+
+![Version Lens](Sources/import%20cost.gif)</center>
+
+## `Markdown All In One`
+
+All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more).
+
+## `markdownlint`
+
+Markdown/CommonMark linting and style checking for Visual Studio Code.
 
