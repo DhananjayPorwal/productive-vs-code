@@ -1,13 +1,28 @@
 {
-	// See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
-	// Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+  // See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+  // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
 
-	// List of extensions which should be recommended for users of this workspace.
-	"recommendations": [ "ThePsychoCoder.psyco-coder-dark", "PKief.material-icon-theme", "yzhang.markdown-all-in-one", "wix.vscode-import-cost", "codezombiech.gitignore", "pflannery.vscode-versionlens", "DavidAnson.vscode-markdownlint", "qezhu.gitlink", "lamartire.git-indicators", "eamodio.gitlens", "dendron.dendron", "alefragnani.project-manager", "johnpapa.vscode-peacock", "esbenp.prettier-vscode"
-		
-	],
-	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
-	"unwantedRecommendations": [
-		
-	]
+  // List of extensions which should be recommended for users of this workspace.
+  "recommendations": [
+    "ThePsychoCoder.psyco-coder-dark",
+    "PKief.material-icon-theme",
+    "yzhang.markdown-all-in-one",
+    "wix.vscode-import-cost",
+    "codezombiech.gitignore",
+    "pflannery.vscode-versionlens",
+    "DavidAnson.vscode-markdownlint",
+    "qezhu.gitlink",
+    "lamartire.git-indicators",
+    "eamodio.gitlens",
+    "dendron.dendron",
+    "alefragnani.project-manager",
+    "johnpapa.vscode-peacock",
+    "esbenp.prettier-vscode",
+    "ritwickdey.LiveServer",
+    "ms-vscode.live-server",
+    "GitHub.vscode-pull-request-github",
+    "ms-vscode.remote-repositories"
+  ],
+  // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+  "unwantedRecommendations": []
 }

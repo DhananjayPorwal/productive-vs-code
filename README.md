@@ -48,7 +48,7 @@ https://coding-fonts.netlify.app/fonts/codelia/
 When any text runs off the side of the screen, the Word Wrap feature of VS Code consolidates it within the window and formats it perfectly.
 
 1. Press `Ctrl` + `Shift` + `P`, then search for `setting (UI)`.
-2. Search `editor word wrap` and turn it `on`.
+2. Search `Editor Word Wrap` and turn it `ON`.
 
 ## Editor Split
 
@@ -96,6 +96,46 @@ Now, we are in a condition where we have to change the name of a function, one t
 To solve this issue, there is an option in `VS Code`. Select the function name you want to change, press `right mouse key` and then select `Rename Symbol`. In this option, VS Code replaces all the function name everywhere it is called across the file system.
 
 One more alternative way of doing this, we can select text and press `right mouse key` and select `Find All References`.
+
+## Open VS Code In A Folder
+
+- Using Terminal
+
+```bash
+code folderName
+```
+
+- Using Context Menu
+
+**One time setup**:
+
+1. Press `Ctrl` + `Shift` + `P` to open the Command Palette.
+2. Type `shell command` and select `Shell Command: Install 'code' command in PATH`.
+
+This will add the code command to your system PATH, so that you can launch VS Code from anywhere on your computer by typing code in a terminal window.
+
+Now, open desired folder you want to open in VS Code and press `right mouse` key, you will see `Open With Code` option there.
+
+## Multi Cursor
+
+One way is to hold `Alt` + `Right click` on mouse where every you want to create another cursor. Or like this:
+
+<center>
+
+![auto-cursor](Sources/auto-cursor.gif)</center>
+
+- Press `Shift` + `Alt` + `Mouse Selection`.
+
+Another and more efficient way of creating multi cursor is:
+
+1. Select the word you want.
+2. Press `Ctrl` + `D` you create multi cursors.
+
+**OR**
+
+1. Press `Ctrl` + `Shift` + `Alt` + `Up\Down Arrow` to create multi-cursor in same columns.
+
+> Press `Esc` to exit multi-cursor.
 
 # Extensions
 
@@ -166,25 +206,6 @@ Having multiple devices can be clutter when we have to modify setting in all the
 
 > Snippet guide available in the starting of your snippet file with an example.
 
-### Open VS Code In A Folder
-
-- Using Terminal
-
-```bash
-code folderName
-```
-
-- Using Context Menu
-
-**One time setup**:
-
-1. Press `Ctrl` + `Shift` + `P` to open the Command Palette.
-2. Type `shell command` and select `Shell Command: Install 'code' command in PATH`.
-
-This will add the code command to your system PATH, so that you can launch VS Code from anywhere on your computer by typing code in a terminal window.
-
-Now, open desired folder you want to open in VS Code and press `right mouse` key, you will see `Open With Code` option there.
-
 ## Useful Extensions
 
 ### `Import Cost`
@@ -202,6 +223,10 @@ All you need to write Markdown (keyboard shortcuts, table of contents, auto prev
 ### `markdownlint`
 
 Markdown/CommonMark linting and style checking for Visual Studio Code.
+
+### `Dendron` Note-Taking
+
+Dendron is an open-source, local-first, markdown-based, note-taking tool. It's a personal knowledge management solution (PKM) built specifically for developers and integrates natively with IDEs like VSCode.
 
 ## Git Extensions
 
@@ -234,9 +259,13 @@ Git indicator in the status bar.
 
 Supercharge Git and unlock untapped knowledge within your repository to better understand, write, and review code. Focus, collaborate, accelerate.
 
-### `Dendron`
+### `GitHub Pull Requests And Issues`
 
-Dendron is an open-source, local-first, markdown-based, note-taking tool. It's a personal knowledge management solution (PKM) built specifically for developers and integrates natively with IDEs like VSCode.
+Review and manage your GitHub pull requests and issues directly in VS Code
+
+### `Remote Repositories`
+
+The Remote Repositories extension integrates with the GitHub Repositories and Azure Repos extensions, allowing you to quickly browse, search, edit, and commit to remote git repositories directly from within Visual Studio Code.
 
 ## Multiple Projects Workflow
 
@@ -262,7 +291,9 @@ Subtly change the workspace color of your workspace. Ideal when you have multipl
 2. Search `Auto Save`.
 3. Change `Files: Auto Save` to `afterDelay`.
 
-![AutoSave](Sources/autosave.png)
+<center>
+
+![AutoSave](Sources/autosave.png)</center>
 
 Now, whenever you stop typing, `VS Code` will automatically save your file after `1000` milliseconds.
 
@@ -276,7 +307,9 @@ Now, after installing this extension we have to manually select this extension t
 2. Search `Default Formatter`.
 3. Select `Prettier`.
 
-![Alt text](Sources/Prettier.png)
+<center>
+
+![Alt text](Sources/Prettier.png)</center>
 
 After this, we can automate auto formatting using `Setting (UI)`.
 
@@ -284,4 +317,65 @@ After this, we can automate auto formatting using `Setting (UI)`.
 2. Search `Format On Save`.
 3. Check the box with title `Editor: Format On Save`.
 
-![autoformat](Sources/autoformat.png)
+<center>
+
+![autoformat](Sources/autoformat.png)</center>
+
+## Preview Your Workflow
+
+### `Live Server`
+
+Launch a development local Server with live reload feature for static & dynamic pages.
+
+## Live Preview
+
+An extension that hosts a local server for you to preview your web projects on. This extension is most useful for projects where a server is not already created (e.g. not for apps using React, Angular, etc.). To work with these, feel free to run the Simple Browser: Show command that is already built-in with VS Code.
+
+# Keyboard Shortcuts
+
+> **Official Documentation**: https://code.visualstudio.com/docs/getstarted/keybindings
+
+1. Open Command Palette.
+2. Search `Keyboard Shortcut Reference`.
+3. Select `Help: Keyboard Shortcut Reference`.
+
+It will navigate you to the [VS Code shortcut keys pdf](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf).
+
+## Tab Management
+
+| Key                    | Work                       |
+| ---------------------- | -------------------------- |
+| `Ctrl` + `N`           | Open New File              |
+| `Ctrl` + `P`           | Open a File                |
+| `Ctrl` + `W`           | Close File                 |
+| `Ctrl` + `\`           | Split Editor               |
+| `Ctrl` + `1`           | Jump into 1st Editor Group |
+| `Ctrl` + `2`           | Jump into 2nd Editor Group |
+| `Ctrl` + `Tab`         | Cycle Tabs                 |
+| `Ctrl` + `Shift` + `T` | Reopens Closed Tabs        |
+
+## Line Management
+
+| Key                            | Work               |
+| ------------------------------ | ------------------ |
+| `Ctrl` + `Up Arrow`            | Moves Line Up      |
+| `Ctrl` + `Down Arrow`          | Moves Line Down    |
+| `Shift` + `Alt` + `Up Arrow`   | Copy Line Up       |
+| `Shift` + `Alt` + `Down Arrow` | Copy Line Down     |
+| `Ctrl` + `Shift` + `Enter`     | Insert Line Above  |
+| `Ctrl` + `Enter`               | Insert Line Below  |
+| `Ctrl` + `]`                   | Insert Indentation |
+| `Ctrl` + `/`                   | Insert Comments    |
+
+## Navigation
+
+| Key                    | Work                   |
+| ---------------------- | ---------------------- |
+| `Ctrl` + `G`           | Go To Line             |
+| `Ctrl` + `T`           | Go To Symbol           |
+| `F12`                  | Go To Definition       |
+| `F12`                  | Go To Definition       |
+| `Ctrl` + `Shift` + `\` | Go To Matching Bracket |
+| `Ctrl` + `Shift` + `P` | Go To Command Palette  |
+| `Ctrl` + `Shift` + `P` | Go To Command Palette  |
+| `Ctrl` + $`$           | Open/Close Terminal    |
