@@ -23,7 +23,7 @@ https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
 https://www.jetbrains.com/lp/mono/
 ```
 
-+ Preview fonts online
+- Preview fonts online
 
 ```html
 https://coding-fonts.netlify.app/fonts/codelia/
@@ -45,40 +45,39 @@ https://coding-fonts.netlify.app/fonts/codelia/
 
 ## Word Wrap
 
-When any text runs off the side of the screen, the Word Wrap feature of VS Code consolidates it within the window and formats it perfectly. 
+When any text runs off the side of the screen, the Word Wrap feature of VS Code consolidates it within the window and formats it perfectly.
 
 1. Press `Ctrl` + `Shift` + `P`, then search for `setting (UI)`.
 2. Search `editor word wrap` and turn it `on`.
 
 ## Editor Split
 
-+ Press `Ctrl` + `\`.
+- Press `Ctrl` + `\`.
 
-+ Press `Ctrl` + `Shift` + `P`, then search for `split editor`.
+- Press `Ctrl` + `Shift` + `P`, then search for `split editor`.
 
 # Editor
 
 ## Editor Preview Mode
 
-When ever we single press to open a file in `VS Code`, it just shows us the `preview` of file until we type something in it. 
+When ever we single press to open a file in `VS Code`, it just shows us the `preview` of file until we type something in it.
 
 One way to get rid out of this issue by opening file by double click.
 
-Another way is to turn it `off` in settings. 
+Another way is to turn it `off` in settings.
 
-+ How we check the file is in `preview mode` or not?
+- How we check the file is in `preview mode` or not?
 
 > If the tab name is in `Italics`, then it is in `preview mode`, otherwise not.
 
-
 ## Trigger Intellisense
 
-+ Press `Ctrl` + `Space`
+- Press `Ctrl` + `Space`
 
 ## Go To Definition
 
-+ Press `F12` or `right click` on mouse.
-+ Press `Ctrl` and click the `function`.
+- Press `F12` or `right click` on mouse.
+- Press `Ctrl` and click the `function`.
 
 ## Find
 
@@ -100,7 +99,9 @@ One more alternative way of doing this, we can select text and press `right mous
 
 # Extensions
 
-## Disable Extensions
+## Settings
+
+### Disable Extensions
 
 > More extensions -> slower the IDE.
 
@@ -111,25 +112,25 @@ Some project doesn't required all the extension we installed. So, we can disable
 3. Press the `gear` or `setting` icon.
 4. Select `Disable For Workspace`.
 
-## Recommended Extensions For Workspace
+### Recommended Extensions For Workspace
 
 While working on a project, you installed some extensions. You want to recommended list of extension whoever use this project. One way is to list down all the extension and that use install them one by one.
 
 Now, `VS Code` provides use a functionality by which, we can add recommended extension to the user using the project.
 
-1. Press `Ctrl` + `Shift` + `P`. 
+1. Press `Ctrl` + `Shift` + `P`.
 2. Type `Recommended Extension` and select it.
 3. Now, it will open a new file named `extension.json`.
-4. In the `extension.json` file, you will find `recommendations` array. 
+4. In the `extension.json` file, you will find `recommendations` array.
 5. After that, we just have to copy extension id from the extension page and paste in the array with double quotes.
 
-Now, when ever someone open your project in `VS Code`, it will show a **pop-up** for *recommending extension*, which can be installed using one click.
+Now, when ever someone open your project in `VS Code`, it will show a **pop-up** for _recommending extension_, which can be installed using one click.
 
-## Setting Sync
+### Setting Sync
 
 Having multiple devices can be clutter when we have to modify setting in all the devices one-by-one. With the `sync setting` we can use `GitHub` or `Microsoft` account to sync setting across the devices.
 
-+  Press `Account` icon present in the *bottom-left* corner. Add your account.
+- Press `Account` icon present in the _bottom-left_ corner. Add your account.
 
 ## Snippets
 
@@ -160,18 +161,20 @@ Having multiple devices can be clutter when we have to modify setting in all the
 		"description": "Print the Ctrl Button in Markdown"
 	}
 ```
+
 7. Now, when ever you type the `{prefix}`, it will shows the option to select the snippet.
 
 > Snippet guide available in the starting of your snippet file with an example.
 
-## Open VS Code In A Folder 
+### Open VS Code In A Folder
 
-+ Using Terminal 
+- Using Terminal
 
 ```bash
 code folderName
 ```
-+ Using Context Menu
+
+- Using Context Menu
 
 **One time setup**:
 
@@ -181,8 +184,28 @@ code folderName
 This will add the code command to your system PATH, so that you can launch VS Code from anywhere on your computer by typing code in a terminal window.
 
 Now, open desired folder you want to open in VS Code and press `right mouse` key, you will see `Open With Code` option there.
- 
-## `gitignore`
+
+## Useful Extensions
+
+### `Import Cost`
+
+Display import/require package size in the editor.
+
+<center>
+
+![Version Lens](Sources/import%20cost.gif)</center>
+
+### `Markdown All In One`
+
+All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more).
+
+### `markdownlint`
+
+Markdown/CommonMark linting and style checking for Visual Studio Code.
+
+## Git Extensions
+
+### `gitignore`
 
 This extension lets you pull `.gitignore` templates from `github/gitignore`.
 
@@ -191,31 +214,13 @@ This extension lets you pull `.gitignore` templates from `github/gitignore`.
 3. Search for `add gitignore`.
 4. Now, you have to select the technology of your project.
 
-## `Version Lens`
+### `Version Lens`
 
 Shows the latest version for each package using code lens.
 
 <center>
 
 ![Version Lens](Sources/version%20lens.gif)</center>
-
-## `Import Cost`
-
-Display import/require package size in the editor.
-
-<center>
-
-![Version Lens](Sources/import%20cost.gif)</center>
-
-## `Markdown All In One`
-
-All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more).
-
-## `markdownlint`
-
-Markdown/CommonMark linting and style checking for Visual Studio Code.
-
-## Git Extensions
 
 ### `gitlink`
 
@@ -229,3 +234,54 @@ Git indicator in the status bar.
 
 Supercharge Git and unlock untapped knowledge within your repository to better understand, write, and review code. Focus, collaborate, accelerate.
 
+### `Dendron`
+
+Dendron is an open-source, local-first, markdown-based, note-taking tool. It's a personal knowledge management solution (PKM) built specifically for developers and integrates natively with IDEs like VSCode.
+
+## Multiple Projects Workflow
+
+### `Project Manager`
+
+It helps you to easily access your projects, no matter where they are located. Don't miss those important projects anymore. You can define your own Projects (also called Favorites), or choose for auto-detect Git, Mercurial or SVN repositories, VSCode folders, or any other folder.
+
+### `Peacock`
+
+Subtly change the workspace color of your workspace. Ideal when you have multiple VS Code instances and you want to quickly identify which is which.
+
+# Autosave & Autoformat Workflow
+
+## Auto Save
+
+- Why?
+  - Remove time to format.
+  - Remove milliseconds of thought.
+  - Focus on code.
+  - Enforce styles across team.
+
+1. Open `Settings (UI)`.
+2. Search `Auto Save`.
+3. Change `Files: Auto Save` to `afterDelay`.
+
+![AutoSave](Sources/autosave.png)
+
+Now, whenever you stop typing, `VS Code` will automatically save your file after `1000` milliseconds.
+
+## Auto Format: `Prettier`
+
+Prettier is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.
+
+Now, after installing this extension we have to manually select this extension to `Format Document` once.
+
+1. Open `Setting UI`.
+2. Search `Default Formatter`.
+3. Select `Prettier`.
+
+![Alt text](Sources/Prettier.png)
+
+After this, we can automate auto formatting using `Setting (UI)`.
+
+1. Open `Setting UI`.
+2. Search `Format On Save`.
+3. Check the box with title `Editor: Format On Save`.
+
+![autoformat](Sources/autoformat.png)
