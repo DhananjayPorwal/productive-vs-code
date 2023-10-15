@@ -3,6 +3,7 @@
 </p>
 <h1 align="center">Productive VS Code</h1>
 
+# Table Of Contents
 
 - [Customizing VS Code](#customizing-vs-code)
 	- [Change UI Theme](#change-ui-theme)
