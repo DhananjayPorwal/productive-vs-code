@@ -97,6 +97,46 @@ To solve this issue, there is an option in `VS Code`. Select the function name y
 
 One more alternative way of doing this, we can select text and press `right mouse key` and select `Find All References`.
 
+## Setting Sync
+
+Having multiple devices can be clutter when we have to modify setting in all the devices one-by-one. With the `sync setting` we can use `GitHub` or `Microsoft` account to sync setting across the devices.
+
+- Press `Account` icon present in the _bottom-left_ corner. Add your account.
+
+## Snippets
+
+### Extension Based Snippets
+
+1. Press `Ctrl` + `Shift` + `X` to open extension marketplace.
+2. Write `@category:"snippets"` and this will show you all the available snippets extension.
+3. Press `Ctrl` + `Shift` + `P` to open `Command Palette`.
+4. Search `Insert Snippet` and select it.
+5. It will show you all snippets and you can insert which one you want.
+
+### User Defined Snippets
+
+1. Press `Ctrl` + `Shift` + `P` to open `Command Palette`.
+2. Search and select `Snippets: Configure User Snippets`.
+3. Now, you have option to create snippet for any language, workspace or globally. Select any of these.
+4. Enter the name of snippet.
+5. Now, a new file created with the name of your snippet.
+6. Here is an example:
+
+```javascript
+	"Print ctrl": {
+		"scope": "markdown",
+		"prefix": "ctrl",
+		"body": [
+			"`Ctrl` + $0"
+		],
+		"description": "Print the Ctrl Button in Markdown"
+	}
+```
+
+7. Now, when ever you type the `{prefix}`, it will shows the option to select the snippet.
+
+> Snippet guide available in the starting of your snippet file with an example.
+
 ## Open VS Code In A Folder
 
 - Using Terminal
@@ -166,46 +206,6 @@ Now, `VS Code` provides use a functionality by which, we can add recommended ext
 
 Now, when ever someone open your project in `VS Code`, it will show a **pop-up** for _recommending extension_, which can be installed using one click.
 
-### Setting Sync
-
-Having multiple devices can be clutter when we have to modify setting in all the devices one-by-one. With the `sync setting` we can use `GitHub` or `Microsoft` account to sync setting across the devices.
-
-- Press `Account` icon present in the _bottom-left_ corner. Add your account.
-
-## Snippets
-
-### Extension Based Snippets
-
-1. Press `Ctrl` + `Shift` + `X` to open extension marketplace.
-2. Write `@category:"snippets"` and this will show you all the available snippets extension.
-3. Press `Ctrl` + `Shift` + `P` to open `Command Palette`.
-4. Search `Insert Snippet` and select it.
-5. It will show you all snippets and you can insert which one you want.
-
-### User Defined Snippets
-
-1. Press `Ctrl` + `Shift` + `P` to open `Command Palette`.
-2. Search and select `Snippets: Configure User Snippets`.
-3. Now, you have option to create snippet for any language, workspace or globally. Select any of these.
-4. Enter the name of snippet.
-5. Now, a new file created with the name of your snippet.
-6. Here is an example:
-
-```javascript
-	"Print ctrl": {
-		"scope": "markdown",
-		"prefix": "ctrl",
-		"body": [
-			"`Ctrl` + $0"
-		],
-		"description": "Print the Ctrl Button in Markdown"
-	}
-```
-
-7. Now, when ever you type the `{prefix}`, it will shows the option to select the snippet.
-
-> Snippet guide available in the starting of your snippet file with an example.
-
 ## Useful Extensions
 
 ### `Import Cost`
@@ -227,6 +227,30 @@ Markdown/CommonMark linting and style checking for Visual Studio Code.
 ### `Dendron` Note-Taking
 
 Dendron is an open-source, local-first, markdown-based, note-taking tool. It's a personal knowledge management solution (PKM) built specifically for developers and integrates natively with IDEs like VSCode.
+
+### `REST Client`
+
+REST Client allows you to send HTTP request and view the response in Visual Studio Code directly.
+
+### `Thunder Client`
+
+Thunder Client is a lightweight Rest API Client Extension for Visual Studio Code with simple and clean design.
+
+### `Tabnine AI`
+
+AI coding assistant with AI code completions and AI code chat right in the IDE, helping developers by generating code, writing unit tests and documentation, explaining legacy code, and much more. Tabnine supports all major languages including JavaScript, Python, Java, Typescript c/c++ and more.
+
+### `GitHub Copilot`
+
+Your AI pair programmer.
+
+### `Live Server`
+
+Launch a development local Server with live reload feature for static & dynamic pages.
+
+### Live Preview
+
+An extension that hosts a local server for you to preview your web projects on. This extension is most useful for projects where a server is not already created (e.g. not for apps using React, Angular, etc.). To work with these, feel free to run the Simple Browser: Show command that is already built-in with VS Code.
 
 ## Git Extensions
 
@@ -321,16 +345,6 @@ After this, we can automate auto formatting using `Setting (UI)`.
 
 ![autoformat](Sources/autoformat.png)</center>
 
-## Preview Your Workflow
-
-### `Live Server`
-
-Launch a development local Server with live reload feature for static & dynamic pages.
-
-## Live Preview
-
-An extension that hosts a local server for you to preview your web projects on. This extension is most useful for projects where a server is not already created (e.g. not for apps using React, Angular, etc.). To work with these, feel free to run the Simple Browser: Show command that is already built-in with VS Code.
-
 # Keyboard Shortcuts
 
 > **Official Documentation**: https://code.visualstudio.com/docs/getstarted/keybindings
@@ -379,3 +393,5 @@ It will navigate you to the [VS Code shortcut keys pdf](https://code.visualstudi
 | `Ctrl` + `Shift` + `P` | Go To Command Palette  |
 | `Ctrl` + `Shift` + `P` | Go To Command Palette  |
 | `Ctrl` + $`$           | Open/Close Terminal    |
+
+---

@@ -21,7 +21,11 @@
     "ritwickdey.LiveServer",
     "ms-vscode.live-server",
     "GitHub.vscode-pull-request-github",
-    "ms-vscode.remote-repositories"
+    "ms-vscode.remote-repositories",
+    "humao.rest-client",
+    "rangav.vscode-thunder-client",
+    "TabNine.tabnine-vscode",
+    "GitHub.copilot"
   ],
   // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
   "unwantedRecommendations": []
