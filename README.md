@@ -5,6 +5,7 @@
 
 # Table Of Contents
 
+- [Table Of Contents](#table-of-contents)
 - [Customizing VS Code](#customizing-vs-code)
 	- [Change UI Theme](#change-ui-theme)
 	- [Change Icon Theme](#change-icon-theme)
@@ -40,7 +41,7 @@
 		- [`Tabnine AI`](#tabnine-ai)
 		- [`GitHub Copilot`](#github-copilot)
 		- [`Live Server`](#live-server)
-		- [Live Preview](#live-preview)
+		- [`Live Preview`](#live-preview)
 	- [Git Extensions](#git-extensions)
 		- [`gitignore`](#gitignore)
 		- [`Version Lens`](#version-lens)
@@ -70,17 +71,23 @@
 https://marketplace.visualstudio.com/items?itemName=ThePsychoCoder.psyco-coder-dark
 ```
 
+> ⭐ This is my personal preference.
+
 ## Change Icon Theme
 
 ```html
 https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
 ```
 
+> ⭐ This is my personal preference.
+
 ## Change Font Family
 
 ```html
 https://www.jetbrains.com/lp/mono/
 ```
+
+> ⭐ This is my personal preference.
 
 - Preview fonts online
 
@@ -101,6 +108,8 @@ https://coding-fonts.netlify.app/fonts/codelia/
 ```json
     "editor.fontLigatures": true
 ```
+
+> **Language must support font Ligatures**.
 
 ## Word Wrap
 
@@ -242,7 +251,7 @@ Another and more efficient way of creating multi cursor is:
 
 ### Disable Extensions
 
-> More extensions -> slower the IDE.
+> **More extensions -> slower the IDE**
 
 Some project doesn't required all the extension we installed. So, we can disable them for particular workspace or project.
 
@@ -307,7 +316,7 @@ Your AI pair programmer.
 
 Launch a development local Server with live reload feature for static & dynamic pages.
 
-### Live Preview
+### `Live Preview`
 
 An extension that hosts a local server for you to preview your web projects on. This extension is most useful for projects where a server is not already created (e.g. not for apps using React, Angular, etc.). To work with these, feel free to run the Simple Browser: Show command that is already built-in with VS Code.
 
@@ -413,6 +422,8 @@ After this, we can automate auto formatting using `Setting (UI)`.
 3. Select `Help: Keyboard Shortcut Reference`.
 
 It will navigate you to the [VS Code shortcut keys pdf](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf).
+
+> Next **Sub-Sections** are specifically for **Windows** based `VS Code Installation`. You can follow above method to find shortcut key for your **operating system**.
 
 ## Tab Management
 
