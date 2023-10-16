@@ -5,7 +5,6 @@
 
 # Table Of Contents
 
-- [Table Of Contents](#table-of-contents)
 - [Customizing VS Code](#customizing-vs-code)
 	- [Change UI Theme](#change-ui-theme)
 	- [Change Icon Theme](#change-icon-theme)
