@@ -108,7 +108,7 @@ https://coding-fonts.netlify.app/fonts/codelia/
     "editor.fontLigatures": true
 ```
 
-> **Language must support font Ligatures**.
+> ⚠️ **Language must support font Ligatures**.
 
 ## Word Wrap
 
