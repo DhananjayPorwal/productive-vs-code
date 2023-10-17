@@ -41,6 +41,7 @@
 		- [`GitHub Copilot`](#github-copilot)
 		- [`Live Server`](#live-server)
 		- [`Live Preview`](#live-preview)
+		- [`Path Intellisense`](#path-ntellisense)
 	- [Git Extensions](#git-extensions)
 		- [`gitignore`](#gitignore)
 		- [`Version Lens`](#version-lens)
@@ -318,6 +319,10 @@ Launch a development local Server with live reload feature for static & dynamic 
 ### `Live Preview`
 
 An extension that hosts a local server for you to preview your web projects on. This extension is most useful for projects where a server is not already created (e.g. not for apps using React, Angular, etc.). To work with these, feel free to run the Simple Browser: Show command that is already built-in with VS Code.
+
+### `Path Intellisense`
+
+Visual Studio Code plugin that autocompletes filenames.
 
 ## Git Extensions
 
