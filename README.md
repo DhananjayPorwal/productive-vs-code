@@ -41,7 +41,7 @@
 		- [`GitHub Copilot`](#github-copilot)
 		- [`Live Server`](#live-server)
 		- [`Live Preview`](#live-preview)
-		- [`Path Intellisense`](#path-ntellisense)
+		- [`Path Intellisense`](#path-intellisense)
 	- [Git Extensions](#git-extensions)
 		- [`gitignore`](#gitignore)
 		- [`Version Lens`](#version-lens)
