@@ -230,7 +230,7 @@ One way is to hold `Alt` + `Right click` on mouse where every you want to create
 
 <center>
 
-![auto-cursor](https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/auto-cursor.gif)</center>
+<img src="https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/auto-cursor.gif" alt="auto-cursor"></center>
 
 - Press `Shift` + `Alt` + `Mouse Selection`.
 
