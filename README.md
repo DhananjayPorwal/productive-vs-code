@@ -229,8 +229,8 @@ Now, open desired folder you want to open in VS Code and press `right mouse` key
 One way is to hold `Alt` + `Right click` on mouse where every you want to create another cursor. Or like this:
 
 <center>
-
-<img src="https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/auto-cursor.gif" alt="auto-cursor"></center>
+<img src="https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/auto-cursor.gif" alt="auto-cursor">
+</center>
 
 - Press `Shift` + `Alt` + `Mouse Selection`.
 
@@ -281,8 +281,8 @@ Now, when ever someone open your project in `VS Code`, it will show a **pop-up**
 Display import/require package size in the editor.
 
 <center>
-
-![Import Cost](https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/import%20cost.gif)</center>
+<img src="https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/import%20cost.gif" alt="import-cost">
+</center>
 
 ### `Markdown All In One`
 
@@ -340,8 +340,8 @@ This extension lets you pull `.gitignore` templates from `github/gitignore`.
 Shows the latest version for each package using code lens.
 
 <center>
-
-![Version Lens](https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/version%20lens.gif)</center>
+<img src="https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/version%20lens.gif" alt="version-lens">
+</center>
 
 ### `gitlink`
 
@@ -388,8 +388,8 @@ Subtly change the workspace color of your workspace. Ideal when you have multipl
 3. Change `Files: Auto Save` to `afterDelay`.
 
 <center>
-
-![AutoSave](https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/autosave.png)</center>
+<img src= "https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/autosave.png" alt = "auto-save">
+</center>
 
 Now, whenever you stop typing, `VS Code` will automatically save your file after `1000` milliseconds.
 
@@ -405,7 +405,7 @@ Now, after installing this extension we have to manually select this extension t
 
 <center>
 
-![Alt text](https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/Prettier.png)</center>
+<img src = "https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/Prettier.png" alt="prettier"></center>
 
 After this, we can automate auto formatting using `Setting (UI)`.
 
@@ -415,7 +415,7 @@ After this, we can automate auto formatting using `Setting (UI)`.
 
 <center>
 
-![autoformat](https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/autoformat.png)</center>
+<img src="https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/autoformat.png" alt = auto-format></center>
 
 # Keyboard Shortcuts
 
