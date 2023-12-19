@@ -6,60 +6,60 @@
 # Table Of Contents
 
 - [Customizing VS Code](#customizing-vs-code)
-	- [Change UI Theme](#change-ui-theme)
-	- [Change Icon Theme](#change-icon-theme)
-	- [Change Font Family](#change-font-family)
-	- [Change Font Size](#change-font-size)
-	- [Turn On Ligatures](#turn-on-ligatures)
-	- [Word Wrap](#word-wrap)
-	- [Editor Split](#editor-split)
+  - [Change UI Theme](#change-ui-theme)
+  - [Change Icon Theme](#change-icon-theme)
+  - [Change Font Family](#change-font-family)
+  - [Change Font Size](#change-font-size)
+  - [Turn On Ligatures](#turn-on-ligatures)
+  - [Word Wrap](#word-wrap)
+  - [Editor Split](#editor-split)
 - [Editor](#editor)
-	- [Editor Preview Mode](#editor-preview-mode)
-	- [Trigger Intellisense](#trigger-intellisense)
-	- [Go To Definition](#go-to-definition)
-	- [Find](#find)
-	- [Multi Cursor Editing](#multi-cursor-editing)
-	- [Rename Symbol](#rename-symbol)
-	- [Setting Sync](#setting-sync)
-	- [Snippets](#snippets)
-		- [Extension Based Snippets](#extension-based-snippets)
-		- [User Defined Snippets](#user-defined-snippets)
-	- [Open VS Code In A Folder](#open-vs-code-in-a-folder)
-	- [Multi Cursor](#multi-cursor)
+  - [Editor Preview Mode](#editor-preview-mode)
+  - [Trigger Intellisense](#trigger-intellisense)
+  - [Go To Definition](#go-to-definition)
+  - [Find](#find)
+  - [Multi Cursor Editing](#multi-cursor-editing)
+  - [Rename Symbol](#rename-symbol)
+  - [Setting Sync](#setting-sync)
+  - [Snippets](#snippets)
+    - [Extension Based Snippets](#extension-based-snippets)
+    - [User Defined Snippets](#user-defined-snippets)
+  - [Open VS Code In A Folder](#open-vs-code-in-a-folder)
+  - [Multi Cursor](#multi-cursor)
 - [Extensions](#extensions)
-	- [Settings](#settings)
-		- [Disable Extensions](#disable-extensions)
-		- [Recommended Extensions For Workspace](#recommended-extensions-for-workspace)
-	- [Useful Extensions](#useful-extensions)
-		- [`Import Cost`](#import-cost)
-		- [`Markdown All In One`](#markdown-all-in-one)
-		- [`markdownlint`](#markdownlint)
-		- [`Dendron` Note-Taking](#dendron-note-taking)
-		- [`REST Client`](#rest-client)
-		- [`Thunder Client`](#thunder-client)
-		- [`Tabnine AI`](#tabnine-ai)
-		- [`GitHub Copilot`](#github-copilot)
-		- [`Live Server`](#live-server)
-		- [`Live Preview`](#live-preview)
-		- [`Path Intellisense`](#path-intellisense)
-	- [Git Extensions](#git-extensions)
-		- [`gitignore`](#gitignore)
-		- [`Version Lens`](#version-lens)
-		- [`gitlink`](#gitlink)
-		- [`Git Indicators`](#git-indicators)
-		- [`GitLens`](#gitlens)
-		- [`GitHub Pull Requests And Issues`](#github-pull-requests-and-issues)
-		- [`Remote Repositories`](#remote-repositories)
-	- [Multiple Projects Workflow](#multiple-projects-workflow)
-		- [`Project Manager`](#project-manager)
-		- [`Peacock`](#peacock)
+  - [Settings](#settings)
+    - [Disable Extensions](#disable-extensions)
+    - [Recommended Extensions For Workspace](#recommended-extensions-for-workspace)
+  - [Useful Extensions](#useful-extensions)
+    - [`Import Cost`](#import-cost)
+    - [`Markdown All In One`](#markdown-all-in-one)
+    - [`markdownlint`](#markdownlint)
+    - [`Dendron` Note-Taking](#dendron-note-taking)
+    - [`REST Client`](#rest-client)
+    - [`Thunder Client`](#thunder-client)
+    - [`Tabnine AI`](#tabnine-ai)
+    - [`GitHub Copilot`](#github-copilot)
+    - [`Live Server`](#live-server)
+    - [`Live Preview`](#live-preview)
+    - [`Path Intellisense`](#path-intellisense)
+  - [Git Extensions](#git-extensions)
+    - [`gitignore`](#gitignore)
+    - [`Version Lens`](#version-lens)
+    - [`gitlink`](#gitlink)
+    - [`Git Indicators`](#git-indicators)
+    - [`GitLens`](#gitlens)
+    - [`GitHub Pull Requests And Issues`](#github-pull-requests-and-issues)
+    - [`Remote Repositories`](#remote-repositories)
+  - [Multiple Projects Workflow](#multiple-projects-workflow)
+    - [`Project Manager`](#project-manager)
+    - [`Peacock`](#peacock)
 - [Autosave \& Autoformat Workflow](#autosave--autoformat-workflow)
-	- [Auto Save](#auto-save)
-	- [Auto Format: `Prettier`](#auto-format-prettier)
+  - [Auto Save](#auto-save)
+  - [Auto Format: `Prettier`](#auto-format-prettier)
 - [Keyboard Shortcuts](#keyboard-shortcuts)
-	- [Tab Management](#tab-management)
-	- [Line Management](#line-management)
-	- [Navigation](#navigation)
+  - [Tab Management](#tab-management)
+  - [Line Management](#line-management)
+  - [Navigation](#navigation)
 
 ---
 
@@ -230,7 +230,7 @@ One way is to hold `Alt` + `Right click` on mouse where every you want to create
 
 <center>
 
-![auto-cursor](Sources/auto-cursor.gif)</center>
+![auto-cursor](https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/auto-cursor.gif)</center>
 
 - Press `Shift` + `Alt` + `Mouse Selection`.
 
@@ -282,7 +282,7 @@ Display import/require package size in the editor.
 
 <center>
 
-![Version Lens](Sources/import%20cost.gif)</center>
+![Import Cost](https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/import%20cost.gif)</center>
 
 ### `Markdown All In One`
 
@@ -341,7 +341,7 @@ Shows the latest version for each package using code lens.
 
 <center>
 
-![Version Lens](Sources/version%20lens.gif)</center>
+![Version Lens](https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/version%20lens.gif)</center>
 
 ### `gitlink`
 
@@ -389,7 +389,7 @@ Subtly change the workspace color of your workspace. Ideal when you have multipl
 
 <center>
 
-![AutoSave](Sources/autosave.png)</center>
+![AutoSave](https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/autosave.png)</center>
 
 Now, whenever you stop typing, `VS Code` will automatically save your file after `1000` milliseconds.
 
@@ -405,7 +405,7 @@ Now, after installing this extension we have to manually select this extension t
 
 <center>
 
-![Alt text](Sources/Prettier.png)</center>
+![Alt text](https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/Prettier.png)</center>
 
 After this, we can automate auto formatting using `Setting (UI)`.
 
@@ -415,7 +415,7 @@ After this, we can automate auto formatting using `Setting (UI)`.
 
 <center>
 
-![autoformat](Sources/autoformat.png)</center>
+![autoformat](https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/autoformat.png)</center>
 
 # Keyboard Shortcuts
 
