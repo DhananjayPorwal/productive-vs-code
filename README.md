@@ -31,6 +31,7 @@
     - [Disable Extensions](#disable-extensions)
     - [Recommended Extensions For Workspace](#recommended-extensions-for-workspace)
   - [Useful Extensions](#useful-extensions)
+    - [`Debug Visualizer`](#debug-visualizer) 
     - [`Import Cost`](#import-cost)
     - [`Markdown All In One`](#markdown-all-in-one)
     - [`markdownlint`](#markdownlint)
@@ -275,6 +276,13 @@ Now, `VS Code` provides use a functionality by which, we can add recommended ext
 Now, when ever someone open your project in `VS Code`, it will show a **pop-up** for _recommending extension_, which can be installed using one click.
 
 ## Useful Extensions
+
+### `Debug Visualizer`
+
+A visual watch window that lets you visualize your data structures while debugging.
+<center>
+<img src="https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/debug-visualizer.gif" alt="import-cost">
+</center>
 
 ### `Import Cost`
 
