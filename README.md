@@ -31,7 +31,7 @@
     - [Disable Extensions](#disable-extensions)
     - [Recommended Extensions For Workspace](#recommended-extensions-for-workspace)
   - [Useful Extensions](#useful-extensions)
-    - [`Debug Visualizer`](#debug-visualizer) 
+    - [`Debug Visualizer`](#debug-visualizer)
     - [`Import Cost`](#import-cost)
     - [`Markdown All In One`](#markdown-all-in-one)
     - [`markdownlint`](#markdownlint)
@@ -40,6 +40,9 @@
     - [`Thunder Client`](#thunder-client)
     - [`Tabnine AI`](#tabnine-ai)
     - [`GitHub Copilot`](#github-copilot)
+    - [`Blockman - Highlight Nested Code Blocks`](#blockman---highlight-nested-code-blocks)
+    - [`Error Lens`](#error-lens)
+    - [`indent-rainbow`](#indent-rainbow)
     - [`Live Server`](#live-server)
     - [`Live Preview`](#live-preview)
     - [`Path Intellisense`](#path-intellisense)
@@ -280,6 +283,7 @@ Now, when ever someone open your project in `VS Code`, it will show a **pop-up**
 ### `Debug Visualizer`
 
 A visual watch window that lets you visualize your data structures while debugging.
+
 <center>
 <img src="https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/debug-visualizer.gif" alt="import-cost">
 </center>
@@ -319,6 +323,18 @@ AI coding assistant with AI code completions and AI code chat right in the IDE, 
 ### `GitHub Copilot`
 
 Your AI pair programmer.
+
+### `Blockman - Highlight Nested Code Blocks`
+
+VS Code Extension For Nested Block Highlighting
+
+### `Error Lens`
+
+Improve highlighting of errors, warnings and other language diagnostics.
+
+### `indent-rainbow`
+
+A simple extension to make indentation more readable
 
 ### `Live Server`
 

@@ -25,7 +25,10 @@
     "humao.rest-client",
     "rangav.vscode-thunder-client",
     "TabNine.tabnine-vscode",
-    "GitHub.copilot"
+    "GitHub.copilot",
+    "oderwat.indent-rainbow",
+    "leodevbro.blockman",
+    "usernamehw.errorlens"
   ],
   // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
   "unwantedRecommendations": []
