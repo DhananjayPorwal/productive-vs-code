@@ -280,7 +280,7 @@ Now, when ever someone open your project in `VS Code`, it will show a **pop-up**
 
 ## Useful Extensions
 
-### `Debug Visualizer`
+### Debug Visualizer
 
 A visual watch window that lets you visualize your data structures while debugging.
 
@@ -288,7 +288,7 @@ A visual watch window that lets you visualize your data structures while debuggi
 <img src="https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/debug-visualizer.gif" alt="import-cost">
 </center>
 
-### `Import Cost`
+### Import Cost
 
 Display import/require package size in the editor.
 
@@ -296,61 +296,63 @@ Display import/require package size in the editor.
 <img src="https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/import%20cost.gif" alt="import-cost">
 </center>
 
-### `Markdown All In One`
+### Markdown All In One
 
 All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more).
 
-### `markdownlint`
+### Markdownlint
 
 Markdown/CommonMark linting and style checking for Visual Studio Code.
 
-### `Dendron` Note-Taking
+### Dendron Note-Taking
 
 Dendron is an open-source, local-first, markdown-based, note-taking tool. It's a personal knowledge management solution (PKM) built specifically for developers and integrates natively with IDEs like VSCode.
 
-### `REST Client`
+<!-- ![dendron]() -->
+
+### REST Client
 
 REST Client allows you to send HTTP request and view the response in Visual Studio Code directly.
 
-### `Thunder Client`
+### Thunder Client
 
 Thunder Client is a lightweight Rest API Client Extension for Visual Studio Code with simple and clean design.
 
-### `Tabnine AI`
+### Tabnine AI
 
 AI coding assistant with AI code completions and AI code chat right in the IDE, helping developers by generating code, writing unit tests and documentation, explaining legacy code, and much more. Tabnine supports all major languages including JavaScript, Python, Java, Typescript c/c++ and more.
 
-### `GitHub Copilot`
+### GitHub Copilot
 
 Your AI pair programmer.
 
-### `Blockman - Highlight Nested Code Blocks`
+### Blockman - Highlight Nested Code Blocks
 
 VS Code Extension For Nested Block Highlighting
 
 ![blockman](https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/blockman.png)
 
-### `Error Lens`
+### Error Lens
 
 Improve highlighting of errors, warnings and other language diagnostics.
 
 ![error-lens](https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/error-lens.png)
 
-### `indent-rainbow`
+### Indent-rainbow
 
 A simple extension to make indentation more readable
 
 ![indent-rainbow](https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/indent-rainbow.png)
 
-### `Live Server`
+### Live Server
 
 Launch a development local Server with live reload feature for static & dynamic pages.
 
-### `Live Preview`
+### Live Preview
 
 An extension that hosts a local server for you to preview your web projects on. This extension is most useful for projects where a server is not already created (e.g. not for apps using React, Angular, etc.). To work with these, feel free to run the Simple Browser: Show command that is already built-in with VS Code.
 
-### `Path Intellisense`
+### Path Intellisense
 
 Visual Studio Code plugin that autocompletes filenames.
 
