@@ -346,7 +346,7 @@ Improve highlighting of errors, warnings and other language diagnostics.
 
 ### Indent-rainbow
 
-A simple extension to make indentation more readable
+A simple extension to make indentation more readable.
 
 ![indent-rainbow](https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/indent-rainbow.png)
 
@@ -399,9 +399,13 @@ Git indicator in the status bar.
 
 Supercharge Git and unlock untapped knowledge within your repository to better understand, write, and review code. Focus, collaborate, accelerate.
 
+<!-- ![git-lens]() -->
+
 ### GitHub Pull Requests And Issues
 
 Review and manage your GitHub pull requests and issues directly in VS Code
+
+<!-- ![GitHub-Pull-Requests-and-Issues]() -->
 
 ### Remote Repositories
 
@@ -416,6 +420,8 @@ It helps you to easily access your projects, no matter where they are located. D
 ### Peacock
 
 Subtly change the workspace color of your workspace. Ideal when you have multiple VS Code instances and you want to quickly identify which is which.
+
+<!-- ![peacock-theme]() -->
 
 # Autosave & Autoformat Workflow
 
