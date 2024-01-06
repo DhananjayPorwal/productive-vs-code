@@ -328,13 +328,19 @@ Your AI pair programmer.
 
 VS Code Extension For Nested Block Highlighting
 
+![blockman](https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/blockman.png)
+
 ### `Error Lens`
 
 Improve highlighting of errors, warnings and other language diagnostics.
 
+![error-lens](https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/error-lens.png)
+
 ### `indent-rainbow`
 
 A simple extension to make indentation more readable
+
+![indent-rainbow](https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/indent-rainbow.png)
 
 ### `Live Server`
 
