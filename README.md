@@ -31,32 +31,32 @@
     - [Disable Extensions](#disable-extensions)
     - [Recommended Extensions For Workspace](#recommended-extensions-for-workspace)
   - [Useful Extensions](#useful-extensions)
-    - [`Debug Visualizer`](#debug-visualizer)
-    - [`Import Cost`](#import-cost)
-    - [`Markdown All In One`](#markdown-all-in-one)
-    - [`markdownlint`](#markdownlint)
-    - [`Dendron` Note-Taking](#dendron-note-taking)
-    - [`REST Client`](#rest-client)
-    - [`Thunder Client`](#thunder-client)
-    - [`Tabnine AI`](#tabnine-ai)
-    - [`GitHub Copilot`](#github-copilot)
-    - [`Blockman - Highlight Nested Code Blocks`](#blockman---highlight-nested-code-blocks)
-    - [`Error Lens`](#error-lens)
-    - [`indent-rainbow`](#indent-rainbow)
-    - [`Live Server`](#live-server)
-    - [`Live Preview`](#live-preview)
-    - [`Path Intellisense`](#path-intellisense)
+    - [Debug Visualizer](#debug-visualizer)
+    - [Import Cost](#import-cost)
+    - [Markdown All In One](#markdown-all-in-one)
+    - [Markdownlint](#markdownlint)
+    - [Dendron Note-Taking](#dendron-note-taking)
+    - [REST Client](#rest-client)
+    - [Thunder Client](#thunder-client)
+    - [Tabnine AI](#tabnine-ai)
+    - [GitHub Copilot](#github-copilot)
+    - [Blockman - Highlight Nested Code Blocks](#blockman---highlight-nested-code-blocks)
+    - [Error Lens](#error-lens)
+    - [Indent-rainbow](#indent-rainbow)
+    - [Live Server](#live-server)
+    - [Live Preview](#live-preview)
+    - [Path Intellisense](#path-intellisense)
   - [Git Extensions](#git-extensions)
-    - [`gitignore`](#gitignore)
-    - [`Version Lens`](#version-lens)
-    - [`gitlink`](#gitlink)
-    - [`Git Indicators`](#git-indicators)
-    - [`GitLens`](#gitlens)
-    - [`GitHub Pull Requests And Issues`](#github-pull-requests-and-issues)
-    - [`Remote Repositories`](#remote-repositories)
+    - [Git Ignore](#git-ignore)
+    - [Version Lens](#version-lens)
+    - [Git Link](#git-link)
+    - [Git Indicators](#git-indicators)
+    - [Git Lens](#git-lens)
+    - [GitHub Pull Requests And Issues](#github-pull-requests-and-issues)
+    - [Remote Repositories](#remote-repositories)
   - [Multiple Projects Workflow](#multiple-projects-workflow)
-    - [`Project Manager`](#project-manager)
-    - [`Peacock`](#peacock)
+    - [Project Manager](#project-manager)
+    - [Peacock](#peacock)
 - [Autosave \& Autoformat Workflow](#autosave--autoformat-workflow)
   - [Auto Save](#auto-save)
   - [Auto Format: `Prettier`](#auto-format-prettier)
@@ -308,7 +308,7 @@ Markdown/CommonMark linting and style checking for Visual Studio Code.
 
 Dendron is an open-source, local-first, markdown-based, note-taking tool. It's a personal knowledge management solution (PKM) built specifically for developers and integrates natively with IDEs like VSCode.
 
-<!-- ![dendron]() -->
+![dendron](https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/dendron.png)
 
 ### REST Client
 
@@ -318,13 +318,19 @@ REST Client allows you to send HTTP request and view the response in Visual Stud
 
 Thunder Client is a lightweight Rest API Client Extension for Visual Studio Code with simple and clean design.
 
+![thunder-client](https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/thunder-client.png)
+
 ### Tabnine AI
 
 AI coding assistant with AI code completions and AI code chat right in the IDE, helping developers by generating code, writing unit tests and documentation, explaining legacy code, and much more. Tabnine supports all major languages including JavaScript, Python, Java, Typescript c/c++ and more.
 
+![tabnine-ai](https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/tabnine-ai.gif)
+
 ### GitHub Copilot
 
 Your AI pair programmer.
+
+![github-copilot](https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/github-copilot.gif)
 
 ### Blockman - Highlight Nested Code Blocks
 
@@ -348,17 +354,23 @@ A simple extension to make indentation more readable
 
 Launch a development local Server with live reload feature for static & dynamic pages.
 
+![live-server](https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/live-server.gif)
+
 ### Live Preview
 
 An extension that hosts a local server for you to preview your web projects on. This extension is most useful for projects where a server is not already created (e.g. not for apps using React, Angular, etc.). To work with these, feel free to run the Simple Browser: Show command that is already built-in with VS Code.
+
+![live-preview](https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/live-preview.gif)
 
 ### Path Intellisense
 
 Visual Studio Code plugin that autocompletes filenames.
 
+![path-intellisense](https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/path-Intellisense.gif)
+
 ## Git Extensions
 
-### `gitignore`
+### Git Ignore
 
 This extension lets you pull `.gitignore` templates from `github/gitignore`.
 
@@ -367,7 +379,7 @@ This extension lets you pull `.gitignore` templates from `github/gitignore`.
 3. Search for `add gitignore`.
 4. Now, you have to select the technology of your project.
 
-### `Version Lens`
+### Version Lens
 
 Shows the latest version for each package using code lens.
 
@@ -375,33 +387,33 @@ Shows the latest version for each package using code lens.
 <img src="https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/version%20lens.gif" alt="version-lens">
 </center>
 
-### `gitlink`
+### Git Link
 
 Goto/Copy current file's online link, supports multiple remote sources in GitHub/GitLab/BitBucket/VSTS/DevOps.
 
-### `Git Indicators`
+### Git Indicators
 
 Git indicator in the status bar.
 
-### `GitLens`
+### Git Lens
 
 Supercharge Git and unlock untapped knowledge within your repository to better understand, write, and review code. Focus, collaborate, accelerate.
 
-### `GitHub Pull Requests And Issues`
+### GitHub Pull Requests And Issues
 
 Review and manage your GitHub pull requests and issues directly in VS Code
 
-### `Remote Repositories`
+### Remote Repositories
 
 The Remote Repositories extension integrates with the GitHub Repositories and Azure Repos extensions, allowing you to quickly browse, search, edit, and commit to remote git repositories directly from within Visual Studio Code.
 
 ## Multiple Projects Workflow
 
-### `Project Manager`
+### Project Manager
 
 It helps you to easily access your projects, no matter where they are located. Don't miss those important projects anymore. You can define your own Projects (also called Favorites), or choose for auto-detect Git, Mercurial or SVN repositories, VSCode folders, or any other folder.
 
-### `Peacock`
+### Peacock
 
 Subtly change the workspace color of your workspace. Ideal when you have multiple VS Code instances and you want to quickly identify which is which.
 
