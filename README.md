@@ -399,13 +399,13 @@ Git indicator in the status bar.
 
 Supercharge Git and unlock untapped knowledge within your repository to better understand, write, and review code. Focus, collaborate, accelerate.
 
-<!-- ![git-lens]() -->
+![git-lens](https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/git-lens.png)
 
 ### GitHub Pull Requests And Issues
 
 Review and manage your GitHub pull requests and issues directly in VS Code
 
-<!-- ![GitHub-Pull-Requests-and-Issues]() -->
+![GitHub-Pull-Requests-and-Issues](https://github.com/DhananjayPorwal/productive-vs-code/blob/main/Sources/GitHub-Pull-Requests-and-Issues.gif?raw=true)
 
 ### Remote Repositories
 
@@ -421,7 +421,7 @@ It helps you to easily access your projects, no matter where they are located. D
 
 Subtly change the workspace color of your workspace. Ideal when you have multiple VS Code instances and you want to quickly identify which is which.
 
-<!-- ![peacock-theme]() -->
+![peacock-theme](https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/peacock.png)
 
 # Autosave & Autoformat Workflow
 
