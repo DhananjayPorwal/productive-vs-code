@@ -13,6 +13,7 @@
   - [Turn On Ligatures](#turn-on-ligatures)
   - [Word Wrap](#word-wrap)
   - [Editor Split](#editor-split)
+  - [Smooth Cursor Animation](#smooth-cursor-animation)
 - [Editor](#editor)
   - [Editor Preview Mode](#editor-preview-mode)
   - [Trigger Intellisense](#trigger-intellisense)
@@ -127,6 +128,14 @@ When any text runs off the side of the screen, the Word Wrap feature of VS Code 
 - Press `Ctrl` + `\`.
 
 - Press `Ctrl` + `Shift` + `P`, then search for `split editor`.
+
+## Smooth Cursor Animation
+
+- Open Settings.
+
+- Search `Smooth Cursor Caret Animation`.
+
+- Turn it **ON**
 
 # Editor
 
