@@ -1,7 +1,6 @@
 <p align="center">
 <img src="Sources/icon.png" height="130" width="130"/>
 </p>
-<h1 align="center">Productive VS Code</h1>
 
 # Table Of Contents
 
