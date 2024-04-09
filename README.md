@@ -25,6 +25,7 @@
     - [Extension Based Snippets](#extension-based-snippets)
     - [User Defined Snippets](#user-defined-snippets)
   - [Open VS Code In A Folder](#open-vs-code-in-a-folder)
+  - [Minimap Section Headers](#minimap-section-headers)
   - [Multi Cursor](#multi-cursor)
 - [Extensions](#extensions)
   - [Settings](#settings)
@@ -235,6 +236,16 @@ code folderName
 This will add the code command to your system PATH, so that you can launch VS Code from anywhere on your computer by typing code in a terminal window.
 
 Now, open desired folder you want to open in VS Code and press `right mouse` key, you will see `Open With Code` option there.
+
+## Minimap section headers
+
+The minimap now recognizes and renders sections defined by folding markers, such as //#region in TypeScript, or comments that use MARK:. This lets you quickly scan and navigate across large files.
+
+<!-- MARK: Hello  -->
+
+<center>
+<img src="https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/mark-mini-map.png" alt="mark-mini-map">
+</center>
 
 ## Multi Cursor
 
