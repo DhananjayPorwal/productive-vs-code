@@ -488,7 +488,7 @@ After this, we can automate auto formatting using `Setting (UI)`.
 
 # Keyboard Shortcuts
 
-> **Official Documentation**: https://code.visualstudio.com/docs/getstarted/keybindings
+> [Official Documentation](https://code.visualstudio.com/docs/getstarted/keybindings)
 
 1. Open Command Palette.
 2. Search `Keyboard Shortcut Reference`.
