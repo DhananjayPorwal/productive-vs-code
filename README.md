@@ -274,9 +274,9 @@ Another and more efficient way of creating multi cursor is:
 
 ## Lock Scrolling
 
-You can now synchronize scrolling across all visible editors by using the View: Toggle Locked Scrolling Across Editors command. This means that when you scroll in one editor, all the other editors scroll by the same amount, keeping everything aligned. This feature can be useful if you need to compare files side-by-side.
+You can synchronize scrolling across all visible editors by using the `View: Toggle Locked Scrolling Across Editors` command. This means that when you scroll in one editor, all the other editors scroll by the same amount, keeping everything aligned. This feature can be useful if you need to compare files side-by-side.
 
-If you want more control for enabling and disabling locked scrolling, you can choose to only activate the scrolling sync when you're holding down a specific keybinding. Set up a keyboard shortcut for the workbench.action.holdLockedScrolling command, and you're able to temporarily lock the scrolling across editors whenever you need it.
+If you want more control for enabling and disabling locked scrolling, you can choose to only activate the scrolling sync when you're holding down a specific keybinding. Set up a keyboard shortcut for the `workbench.action.holdLockedScrolling` command, and you're able to temporarily lock the scrolling across editors whenever you need it.
 
 https://github.com/DhananjayPorwal/productive-vs-code/assets/51775507/971a458a-a740-43eb-8a4a-d3fc1013d333
 
