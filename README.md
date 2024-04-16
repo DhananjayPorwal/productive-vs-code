@@ -278,8 +278,8 @@ You can now synchronize scrolling across all visible editors by using the View: 
 
 If you want more control for enabling and disabling locked scrolling, you can choose to only activate the scrolling sync when you're holding down a specific keybinding. Set up a keyboard shortcut for the workbench.action.holdLockedScrolling command, and you're able to temporarily lock the scrolling across editors whenever you need it.
 
-<video src="https://code.visualstudio.com/assets/updates/1_88/locked-scrolling.mp4" alt="locked-scrolling" type="video/mp4">
-</video>
+https://github.com/DhananjayPorwal/productive-vs-code/assets/51775507/971a458a-a740-43eb-8a4a-d3fc1013d333
+
 
 ## Activity Bar at the bottom
 
