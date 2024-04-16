@@ -14,6 +14,7 @@
   - [Editor Split](#editor-split)
   - [Smooth Cursor Animation](#smooth-cursor-animation)
 - [Editor](#editor)
+
   - [Editor Preview Mode](#editor-preview-mode)
   - [Trigger Intellisense](#trigger-intellisense)
   - [Go To Definition](#go-to-definition)
@@ -27,6 +28,9 @@
   - [Open VS Code In A Folder](#open-vs-code-in-a-folder)
   - [Minimap Section Headers](#minimap-section-headers)
   - [Multi Cursor](#multi-cursor)
+  - [Lock Scrolling](#lock-scrolling)
+  - [Activity Bar At The Bottom](#activity-bar-at-the-bottom)
+
 - [Extensions](#extensions)
   - [Settings](#settings)
     - [Disable Extensions](#disable-extensions)
@@ -274,8 +278,16 @@ You can now synchronize scrolling across all visible editors by using the View: 
 
 If you want more control for enabling and disabling locked scrolling, you can choose to only activate the scrolling sync when you're holding down a specific keybinding. Set up a keyboard shortcut for the workbench.action.holdLockedScrolling command, and you're able to temporarily lock the scrolling across editors whenever you need it.
 
-  <video src="https://code.visualstudio.com/assets/updates/1_88/locked-scrolling.mp4" alt="locked-scrolling" type="video/mp4">
+<video src="https://code.visualstudio.com/assets/updates/1_88/locked-scrolling.mp4" alt="locked-scrolling" type="video/mp4">
 </video>
+
+## Activity Bar at the bottom
+
+We can move the Activity bar to the top of the Side Bar. We can enable to move the Activity Bar to the bottom. To do this, change the `workbench.activityBar.location` setting to bottom.
+
+<center>
+<img src="https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/activity-bar-positions.png" alt="activity-bar-positions">
+</center>
 
 
 # Extensions
