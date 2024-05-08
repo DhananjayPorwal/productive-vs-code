@@ -30,6 +30,7 @@
   - [Multi Cursor](#multi-cursor)
   - [Lock Scrolling](#lock-scrolling)
   - [Activity Bar At The Bottom](#activity-bar-at-the-bottom)
+  - [Quick Search](#quick-search)
 
 - [Extensions](#extensions)
   - [Settings](#settings)
@@ -278,8 +279,9 @@ You can synchronize scrolling across all visible editors by using the `View: Tog
 
 If you want more control for enabling and disabling locked scrolling, you can choose to only activate the scrolling sync when you're holding down a specific keybinding. Set up a keyboard shortcut for the `workbench.action.holdLockedScrolling` command, and you're able to temporarily lock the scrolling across editors whenever you need it.
 
-https://github.com/DhananjayPorwal/productive-vs-code/assets/51775507/971a458a-a740-43eb-8a4a-d3fc1013d333
-
+<center>
+<img src="https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/lock-scrolling.gif" alt="lock-scrolling">
+</center>
 
 ## Activity Bar at the bottom
 
@@ -289,6 +291,16 @@ We can move the Activity bar to the top of the Side Bar. We can enable to move t
 <img src="https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/activity-bar-positions.png" alt="activity-bar-positions">
 </center>
 
+## Quick Search
+
+Quick Search enables you to quickly perform a text search across your workspace files.
+
+- Open Command Palette by pressing `Ctrl` + `Shift` + `P`.
+- Search: `Quick Search` command or `%` and write your query.
+
+<center>
+<img src="https://raw.githubusercontent.com/DhananjayPorwal/productive-vs-code/main/Sources/quick-search.gif" alt="quick-search">
+</center>
 
 # Extensions
 
